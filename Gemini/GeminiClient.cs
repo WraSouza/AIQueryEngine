@@ -4,9 +4,8 @@ using System.Text.Json;
 
 namespace ServerMCP.Gemini
 {
-    public class GeminiClient(HttpClient httpClient)
-    {
-       
+    public class GeminiClient(HttpClient httpClient,IConfiguration configuration)
+    {       
         public async Task<string> SendMessageAsync(string userMessage)
         {
             
@@ -23,7 +22,9 @@ namespace ServerMCP.Gemini
 
             var content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
 
-            string conteudo = File.ReadAllText(@"S:\TI\Wladimir\AIQueryEngine\gemini-api-key.txt");
+            var caminhoArquivo = configuration["Gemini:ApiKeyFile"];
+
+            string conteudo = File.ReadAllText(caminhoArquivo).Trim();
            
             var response = await httpClient.PostAsync(
                "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=" + conteudo,

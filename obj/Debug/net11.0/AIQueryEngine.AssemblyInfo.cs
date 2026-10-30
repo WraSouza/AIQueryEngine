@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIQueryEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad2709842fe9e4322e8535834f12b8a6e1ba5fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIQueryEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIQueryEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

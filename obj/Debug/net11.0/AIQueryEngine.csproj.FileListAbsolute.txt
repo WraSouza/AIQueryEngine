@@ -47,3 +47,4 @@ C:\Users\wladimir.souza\source\repos\AIQueryEngine\obj\Debug\net11.0\refint\AIQu
 C:\Users\wladimir.souza\source\repos\AIQueryEngine\obj\Debug\net11.0\AIQueryEngine.pdb
 C:\Users\wladimir.souza\source\repos\AIQueryEngine\obj\Debug\net11.0\AIQueryEngine.genruntimeconfig.cache
 C:\Users\wladimir.souza\source\repos\AIQueryEngine\obj\Debug\net11.0\ref\AIQueryEngine.dll
+C:\Users\wladimir.souza\source\repos\AIQueryEngine\obj\Debug\net11.0\AIQueryEngine.sourcelink.json

@@ -12,22 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddHttpClient<SapApiClient>(client =>
-{
-    client.BaseAddress = new Uri(SapApiEndpoint.SapApiBaseUrl);
-
-    client.DefaultRequestHeaders.Authorization =
-        new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "fc3b4dcb81f8919595fdaff9bc2927dd");
-});
+builder.Services.AddHttpClient<SapApiClient>();
 
 builder.Services.AddScoped<SalesTools>();
 builder.Services.AddSingleton<SapTableCatalog>();
 
-builder.Services.AddHttpClient<GeminiClient>(client =>
-{
-    // Se precisar, configure headers ou base address aqui
-    client.DefaultRequestHeaders.Add("x-goog-api-key", builder.Configuration["GeminiApiKey"]);
-});
+builder.Services.AddHttpClient<GeminiClient>();
 
 var app = builder.Build();
 
@@ -42,8 +32,6 @@ if (app.Environment.IsDevelopment())
 app.MapSalesEndpoints();
 
 app.UseHttpsRedirection();
-
-
 
 app.Run();
 
