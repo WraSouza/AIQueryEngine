@@ -82,7 +82,7 @@ flowchart TD
 
 Before running the project, make sure you have:
 
-- .NET 10 SDK
+- .NET 11 SDK
 - A Google Gemini API key
 - Access to the intermediate SAP API
 - SAP Business One 9.3 with SAP HANA
