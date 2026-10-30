@@ -1,0 +1,11 @@
+@AIQueryEngine_HostAddress = http://localhost:5279
+
+GET {{AIQueryEngine_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{AIQueryEngine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

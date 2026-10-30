@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "+NBAQZYPNQs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wladimir.souza\\source\\repos\\AIQueryEngine\\AIQueryEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\closedxml\\0.105.1\\closedxml.0.105.1.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\microsoft.aspnetcore.openapi\\11.0.0-rc.1.26425.128\\microsoft.aspnetcore.openapi.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.11.0\\microsoft.extensions.ai.abstractions.10.11.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\microsoft.openapi\\3.10.0\\microsoft.openapi.3.10.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\modelcontextprotocol\\2.3.0\\modelcontextprotocol.2.3.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\modelcontextprotocol.aspnetcore\\2.3.0\\modelcontextprotocol.aspnetcore.2.3.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\modelcontextprotocol.core\\2.3.0\\modelcontextprotocol.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\scalar.aspnetcore\\2.18.6\\scalar.aspnetcore.2.18.6.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\wladimir.souza\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
